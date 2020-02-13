@@ -1,3 +1,3 @@
-# istioctl-analyze-gcp-action
+# istioctl-analyze-gke-action
 
 ## WIP
