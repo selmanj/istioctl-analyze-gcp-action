@@ -1,1 +1,3 @@
-# stioctl-analyze-gcp-action
+# istioctl-analyze-gcp-action
+
+## WIP
