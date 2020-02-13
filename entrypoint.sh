@@ -9,7 +9,7 @@ PROJECT_NAME=$4
 CLUSTER_NAME=$5
 ZONE=$6
 
-echo "$GCP_CREDS" > credentials.json
+echo -n "$GCP_CREDS" | base64 -d > credentials.json
 
 set -euxo pipefail
 

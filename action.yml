@@ -8,7 +8,7 @@ inputs:
     description: 'Github token for the repo to use'
     required: true
   gcpCredentials:
-    description: 'Service account secret to use to authenticate to GCP'
+    description: 'Service account secret to use to authenticate to GCP, in base64 encoding'
     required: true
   projectName:
     description: 'GCP project name'
