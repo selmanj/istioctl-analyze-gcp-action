@@ -1,6 +1,6 @@
 #!/bin/bash 
-istioctl=./istioctl
-gcloud=./google-cloud-sdk/bin/gcloud
+istioctl=/istioctl/istioctl
+gcloud=/gcloud/google-cloud-sdk/bin/gcloud
 
 CONFIG_DIR=$1
 REPO_TOKEN=$2
