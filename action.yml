@@ -23,9 +23,9 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.config-dir }}
-    - ${{ inputs.repo-token }}
-    - ${{ inputs.gcp-credentials }}
-    - ${{ inputs.project-name }}
-    - ${{ inputs.cluster-name }}
+    - ${{ inputs.configDir }}
+    - ${{ inputs.repoToken }}
+    - ${{ inputs.gcpCredentials }}
+    - ${{ inputs.projectName }}
+    - ${{ inputs.clusterName }}
     - ${{ inputs.zone }}
